@@ -1,0 +1,251 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*********************1ci hisse***********************************/
+.en-yuxari{
+    display: flex;
+  
+    padding: 5px 5px;
+    width: 50vw;
+    min-width: 478px;
+    margin-left: 500px;
+    color: white;
+    background-color: #424242;
+}
+.list-1-block{
+    margin-left: 75px;
+}
+.list-1{
+    list-style-type: none;
+}
+.list-1>li{
+    display: inline;
+    float: left;
+    padding: 5px 10px;
+    /* padding: 5px 10px; */
+}
+.list-1>li:hover{
+    cursor: pointer;
+}
+/***************************2ci hisse*********************************/
+.main-block-2{
+    display: flex;
+    margin-left: 209px;
+}
+.main-block-2_1{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+.main-block-2_1>div:nth-child(1){
+    padding: 0 10px;
+}
+ .main-block-2_1>div:not(:nth-child(1)){
+     height: 100%;
+     padding-top: 15px;
+     padding-left: 10px;
+     padding-right: 10px;
+     box-sizing: border-box;
+ }
+    
+    
+    
+
+.main-block-2_1>div:not(:nth-child(1)):hover{
+    background-color: #AD7A5A;
+    cursor: pointer;
+}
+.main-block-2_1>div>a{
+    text-decoration: none;
+    color: white;
+}
+.main-block-2_2{
+    height: 150%;
+    margin-left: 85px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #7ED321;
+    color: white;
+}
+.main-block-2_2:hover{
+    opacity: .9;
+    cursor: pointer;
+    color: white;
+}
+/********************************* 3cu hisse *******************************/
+.main-block-3{
+    
+    height: 90px;
+    align-items: center;
+    background-color: #AD7A5A;
+   
+}
+.main-block-3-esas{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+     margin-left: 25px;
+}
+
+
+select{
+    padding: 15px 17px;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+}
+option{
+    padding: 15px 15px;
+}
+select:hover{
+    cursor: pointer;
+}
+#select4{
+    width: 150px;
+    padding: 16px 5px;
+    border-left: none;
+    border-bottom: none;
+    border-top: none;
+}
+#select4:hover{
+    cursor: pointer;    
+}
+#select7{
+    border: none;
+    padding: 16px 35px;
+    background-color: #3D5AF3;
+    color: white;
+}
+#select7:hover{
+    cursor: pointer;
+}
+/**************************************** 4cu hisse*************************************************/
+.main-block-4{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    background-color: #E4E2E0;
+}
+
+.main-block-4_1{
+    width: 13%;
+    height: 500px;
+    background-color: blueviolet;
+    writing-mode: vertical-lr;
+    text-align: center;
+    padding-left: 60px;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0%;
+    
+}
+.main-block-orta{
+    width: 85%;
+    box-sizing: border-box;
+    margin: 10px;
+   
+}
+.main-block-orta-1{
+    display: flex;
+
+}
+.ortablock1{
+    
+    background-color: white;  
+    margin: 5px;
+}
+.ortablock1-child1{
+    padding: 10px;
+    
+}
+.ortablock1-child1>span{
+    padding: 10px 5px;
+    border-bottom: 1px solid blue;
+    color: blue;
+}
+    /*orta block 2**********************************************************/
+    
+   
+    
+
+.ortablock1-child2{
+    display: flex;
+    
+}
+.ortablock1-child2>div{
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
+    
+    
+}
+
+
+.ortablock1-child2>div>ul{
+    list-style-type: none;
+}
+.ortablock1-child2>div>ul>li{
+    padding: 5px 49px 5px 10px;
+}
+.ortablock1-child2>div>ul>li>a{
+    text-decoration: none;
+    color: blue;
+    
+}
+.ortablock1-child2>div>ul>li>a:hover{
+    text-decoration: underline;
+}
+.ortablock2>div{
+  width: 255px;
+  height: 60px;
+  background-color: white;
+  margin: 5px 5px 4px 5px; 
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 5px;
+}
+/***********************************************************************/
+.main-block-orta-2{
+    margin: 30px 10px 0px  6px;  
+    padding: 0;
+    
+}
+.main-block-orta-2>header{
+    background-color: white;
+    margin: 0;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/****************************************/
+.image-blocks>div{
+     display: flex;
+}
+.image-blocks>div>div{   /* burda sekil olan butun divlere umumi muraciet elemisem*/
+    width: 230px;
+    height: 270px;
+    border: 1px solid grey;
+    margin:10px;
+    /* position: relative; */
+}
+.image-blocks>div>div>div:nth-child(1){
+    background-position: center center;    /***************************burda esas sekil olan dive muraciet*********************/
+    background-size: cover;
+    height: 100%;
+}
+/* .image-blocks>div>div>div:nth-child(2):hover{
+    background-color: #51B4FB;
+} */
+.image-blocks>div>div>div:nth-child(2):hover h3{    /********************burda asagida something yazilan dive muraciet********************************/
+    color: blue;
+  
+    
+}
