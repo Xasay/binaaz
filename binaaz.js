@@ -1,0 +1,12 @@
+document.getElementById("span1").innerHTML="10000azn";
+document.getElementById('span2').innerHTML="120000 Azn";
+document.getElementById('span3').innerHTML="300000Azn";
+document.getElementById('span4').innerHTML='500000Azn';
+document.getElementById('span5').innerHTML='150000Azn';
+document.getElementById('span6').innerHTML='155000Azn';
+document.getElementById('span7').innerHTML='1540000Azn';
+document.getElementById('span8').innerHTML='150060Azn';
+document.getElementById('span9').innerHTML='340050Azn';
+document.getElementById('span10').innerHTML='1556000Azn';
+document.getElementById('span11').innerHTML='15005400Azn';
+document.getElementById('span12').innerHTML='150000464Azn';
